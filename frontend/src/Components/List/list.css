@@ -1,0 +1,64 @@
+.subscription-list-container {
+  margin-top: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  direction: rtl;
+}
+
+.subscription-title {
+  text-align: right;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  padding-right: 10px;
+}
+
+.no-subscriptions {
+  color: #ccc;
+  text-align: center;
+  font-size: 15px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 16px;
+  border: 1px solid #fff;
+  background: linear-gradient(135deg, #002134 0%, #CD907E 100%);
+  padding: 10px;
+}
+
+.subscription-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+.subscription-table th,
+.subscription-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 15px;
+}
+
+.subscription-table th {
+  text-align: center;
+  font-weight: bold;
+}
+
+.subscription-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.delete-btn {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid #fff;
+  padding: 5px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #fff;
+  color: #002134;
+}

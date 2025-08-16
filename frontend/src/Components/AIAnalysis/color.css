@@ -1,0 +1,121 @@
+:root {
+  --alinma-primary: #002b49;
+  --alinma-light: #f1f4f6;
+  --alinma-accent: #0073b1;
+  --alinma-gray: #999;
+  --alinma-white: #ffffff;
+  --font-family: 'Segoe UI', sans-serif;
+}
+
+.ai-analysis-container {
+  margin-top: 40px;
+  padding: 30px;
+  background: linear-gradient(135deg, #002134, #CD907E);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: var(--font-family);
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #34495e;
+}
+
+
+
+.ai-title {
+  font-size: 1.8rem;
+  color: var(--alinma-light);
+  margin-bottom: 20px;
+}
+
+.analyze-btn {
+  background-color: var(--alinma-gray);
+  color: var(--alinma-white);
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.analyze-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.analyze-btn:hover:not(:disabled) {
+  background-color: #005a89;
+}
+
+.ai-result-container {
+  margin-top: 20px;
+}
+
+.ai-result-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ai-result-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ai-result-card-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.ai-section-header {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  border-right: 4px solid #ffffff;
+  text-align: right;
+}
+
+.ai-suggestion {
+  background-color: #fff7ed;
+  border-left: 5px solid #f59e0b;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #92400e;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  text-align: right;
+}
+
+.ai-info {
+  background-color: #eff6ff;
+  border-left: 5px solid #3b82f6;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #1d4ed8;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  text-align: right;
+}
+
+.ai-saving-hint {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #002134 0%, #CD907E 100%);
+  color: white;
+  padding: 16px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

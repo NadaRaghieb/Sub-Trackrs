@@ -1,0 +1,62 @@
+.analytics-container {
+  background: linear-gradient(135deg, #002134 0%, #CD907E 100%);
+  border-radius: 16px;
+  padding: 25px;
+  color: white;
+  margin-top: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.analytics-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.total-expense {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.category-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 15px;
+}
+
+.chart {
+  margin-top: 20px;
+}
+
+.bar-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.bar-group label {
+  width: 30px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.bar {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 12px;
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.fill {
+  background-color: white;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}

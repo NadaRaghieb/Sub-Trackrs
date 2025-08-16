@@ -1,0 +1,44 @@
+footer {
+  background: linear-gradient(to left, #002134, #CD907E);
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 1rem 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #ffffff22;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer__text {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0.2rem;
+}
+
+/* تأثير خفيف عند مرور الماوس */
+footer:hover {
+  background: linear-gradient(to left, #001726, #b17867);
+  transition: all 0.3s ease-in-out;
+}
+
+/* تنسيق للموبايل */
+@media screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer__text {
+    font-size: 0.75rem;
+    margin-bottom: 4px;
+  }
+}
